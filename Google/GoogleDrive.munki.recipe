@@ -19,7 +19,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Google Drive for Mac syncs any or all your files to Google Drive on the web, making them available anywhere, at any time, on any device.</string>
+			<string>Google Drive for Mac syncs any or all of your files to Google Drive on the web, making them available anywhere, at any time, on any device.</string>
 			<key>display_name</key>
 			<string>Google Drive</string>
 			<key>name</key>
