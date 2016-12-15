@@ -3,35 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the current release version of HipChat.</string>
+	<string>Downloads the current release version of HipChat.
+
+This recipe is deprecated and will be removed in the future. Please use the recipe with this identifier instead: com.github.arubdesu.download.HipChat</string>
 	<key>Identifier</key>
 	<string>com.github.derak.download.HipChat</string>
 	<key>Input</key>
-	<dict>
-		<key>NAME</key>
-		<string>HipChat</string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://www.hipchat.com/downloads/latest/mac</string>
-	</dict>
-	<key>MinimumVersion</key>
-	<string>0.2.0</string>
+	<dict/>
+	<key>ParentRecipe</key>
+	<string>com.github.arubdesu.download.HipChat</string>
 	<key>Process</key>
-	<array>
-		<dict>
-			<key>Processor</key>
-			<string>URLDownloader</string>
-			<key>Arguments</key>
-			<dict>
-				<key>url</key>
-				<string>%DOWNLOAD_URL%</string>
-				<key>filename</key>
-				<string>%NAME%.zip</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
-		</dict>
-	</array>
+	<array/>
 </dict>
 </plist>
